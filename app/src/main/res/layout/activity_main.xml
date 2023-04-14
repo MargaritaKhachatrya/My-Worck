@@ -4,76 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
     android:background="#D270E3"
     android:orientation="vertical"
+    android:padding="10dp"
+    android:scrollbarTrackHorizontal="@android:drawable/ic_dialog_email"
     tools:context=".MainActivity">
 
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Sing up"
-    android:textColor="@color/black"
-    android:textSize="50dp"
-    android:textStyle="bold"
-    android:gravity="center_horizontal"
-    android:layout_marginTop="100dp"
-    android:layout_marginBottom="50dp"/>
-
-    
-    <EditText
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/username"
-        android:hint="Username"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:background="@drawable/edittextbackground"
-        android:layout_marginBottom="30dp"
-        android:paddingLeft="20dp"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/password"
-        android:hint="Password"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:background="@drawable/edittextbackground"
-        android:layout_marginBottom="30dp"
-        android:paddingLeft="20dp"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/repassword"
-        android:hint="Confirm Password"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:background="@drawable/edittextbackground"
-        android:layout_marginBottom="30dp"
-        android:paddingLeft="20dp"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/signup"
-        android:text="register"
-        android:textSize="20dp"
-        android:backgroundTint="@color/black"
-        android:layout_marginBottom="30dp"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/singin"
-        android:text="alraedy have an account"
-        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:text="Sing up"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:backgroundTint="#C634DF"
-        android:layout_marginBottom="30dp"/>
+        android:textSize="50dp"
+        android:textStyle="bold" />
 
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittextbackground"
+        android:hint="Username"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittextbackground"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittextbackground"
+        android:hint="Confirm Password"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/black"
+        android:text="register"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/singin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#C634DF"
+        android:text="alraedy have an account"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
 
 
 </LinearLayout>

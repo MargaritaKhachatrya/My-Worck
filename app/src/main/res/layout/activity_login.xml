@@ -12,13 +12,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome to anun"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome to MG"
         android:textColor="@color/black"
         android:textSize="50dp"
-        android:textStyle="bold"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="50dp"/>
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
@@ -45,7 +45,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/password"
+        android:id="@+id/password1"
         android:hint="Password"
         android:textSize="25dp"
         android:textColorHint="@color/black"
@@ -56,7 +56,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/signup"
+        android:id="@+id/singin1"
         android:text="Sing in"
         android:textSize="20dp"
         android:backgroundTint="@color/black"
